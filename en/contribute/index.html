@@ -510,13 +510,16 @@
 </div>
 <ul>
 <li>You can make simple changes directly on the Github.com website, after forking the documentation repository.</li>
+</ul>
+<p><img alt="Editing a documentation page directly on Github" src="../_images/github-editing.png" /></p>
+<ul>
 <li>For more complex changes, or simply more convience, use your regular git development workflow, with your preferred IDE (VSCode, Jetbrains IDES, Sublime Text,etc)</li>
 </ul>
 <h2 id="building-and-publishing">Building and publishing</h2>
-<p>Once your proposed changes have been submitted through a Pull Request, an administrator will review them and, if accepted, merge them into the <code>main</code> branch. This process of building and publishing the updated documentation is automated using:</p>
+<p>Once your proposed changes have been submitted through a <strong>Pull Request</strong>, an administrator will review them and, if accepted, merge them into the <code>main</code> branch. This process of building and publishing the updated documentation is automated using:</p>
 <ul>
-<li>Github actions for the build process: see <code>/.github/workflows/ci.yml</code> for configuration.</li>
-<li>Mkdocs Material configuration file located at <code>mkdocs.yml</code>, per language.</li>
+<li><em>Github actions</em> for the build process: see <code>/.github/workflows/ci.yml</code> for configuration.</li>
+<li><em>Mkdocs Material</em> configuration file located at <code>mkdocs.yml</code>, per language.</li>
 </ul>
 <details class="danger">
 <summary>Unless you are an administrator of this project, only change documentation content, located inside of the <code>/&lt;language code&gt;/docs</code> directory.</summary>

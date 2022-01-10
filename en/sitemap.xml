@@ -6,7 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://weeblr.github.io/jdevdocs/contribute/</loc>
+         <loc>https://weeblr.github.io/jdevdocs/contribute/license-faq/</loc>
+         <lastmod>2022-01-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://weeblr.github.io/jdevdocs/contribute/license/</loc>
+         <lastmod>2022-01-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://weeblr.github.io/jdevdocs/contribute/tools/</loc>
          <lastmod>2022-01-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
